@@ -1,0 +1,68 @@
+ 
+
+
+* {
+  font-family: monospace;
+}
+
+.header {
+
+  text-align: center;
+
+  margin-bottom: 3em;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 0.5em;
+}
+
+h1 {
+  /* margin-bottom: 0.2em; */
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.links>div {
+  display: inline-block;
+  text-align: left;
+}
+
+.links {
+  text-align: center;
+}
+
+html {
+  /* font-size: 19px; */
+}
+
+.message {
+  font-size: 2em;
+}
+div#output {
+    /* margin-top: 2em; */
+}
+
+.controls {
+  text-align: center;
+}
+
+#output>div {
+  display: inline-block;
+  border: 1px solid crimson;
+  background-color: aliceblue;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+p {
+    font-weight: bold;
+    margin: 0;
+}
+
+button#btnMany {
+  display: none;
+}
